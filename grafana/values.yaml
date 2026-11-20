@@ -1,4 +1,4 @@
-replicaCount: 3
+replicaCount: 1
 
 image:
   repository: grafana/grafana
@@ -14,4 +14,4 @@ service:
 persistence:
   enabled: true
   size: 10Gi
-  storageClass: gp2
+  storageClass: local-path
